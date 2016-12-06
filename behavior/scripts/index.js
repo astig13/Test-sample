@@ -39,7 +39,7 @@ exports.handle = (client) => {
   },
 
   prompt() {
-    client.addResponse('Hi1')
+    client.addResponse('Hi')
     client.done()
   }
 })
